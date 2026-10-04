@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.michaelclarke854/evergesture",
+  "title": "EverGesture",
+  "description": "Secure gift, flower, occasion, reminder, approval, and growth tools for personal AI agents.",
+  "version": "1.4.1",
+  "websiteUrl": "https://www.evergesture.com",
+  "repository": {
+    "url": "https://github.com/michaelclarke854/evergesture-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://occalyn-mcp-gateway.navureli.workers.dev/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "contactEmail": "support@evergesture.com",
+      "documentationUrl": "https://www.evergesture.com",
+      "privacyPolicyUrl": "https://www.evergesture.com/privacy",
+      "termsOfServiceUrl": "https://www.evergesture.com/terms"
+    }
+  }
+}
